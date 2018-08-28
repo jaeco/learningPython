@@ -3,12 +3,12 @@ print("I will now count my chickens:")
 #P E (M D) (A S)
 
 # 30 divide by 6 then add 25
-print("Hens", 25 + 30 / 6)
+print("Hens", 25.00 + 30.00 / 6.00)
 
 # 25 times 3 = 75
 # 75 mod 4 = 18.75 ~> 18 || 18 * 4 = 72 - 75 = 3
 # 3 minus 100 = 97
-print("Roosters", 100 - 25 * 3 % 4)
+print("Roosters", 100.00 - 25.00 * 3.00 % 4.00)
 
 print("Now I will count my eggs")
 
@@ -19,7 +19,7 @@ print("Now I will count my eggs")
 # (1 - .25 + 6)
 # (.75 + 6)
 # 6.75
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
+print(3.00 + 2.00 + 1.00 - 5.00 + 4.00 % 2.00 - 1.00 / 4.00 + 6.00)
 
 print("Is it true that 3 + 2 < 5 - 7?")
 # Do math then compare
