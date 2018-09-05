@@ -8,7 +8,7 @@ print("Here are the days: ", days)
 #print the months, each on a new line
 print("Here are the months: ", months)
 
-# Print whatever is between triple double-quotes as written, however special parsing notes are ignored (this is fluffy strings)
+# Print whatever is between triple double-quotes as written
 print("""
 There's something going on here.
 With the three double-quotes
