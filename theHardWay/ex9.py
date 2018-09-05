@@ -1,7 +1,7 @@
 #nothing special going on here, just a string variable
 days = "Mon Tue Wed Thu Fri Sat Sun"
 #There are special characters \n being parsed as line returns, so each month starts on a new line
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug" #the backslash "\" character in a string represents an escape sequence"
 
 #print the days
 print("Here are the days: ", days)
