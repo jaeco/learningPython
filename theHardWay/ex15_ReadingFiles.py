@@ -1,4 +1,4 @@
-#Import argv from sys module
+#Import argv method from sys module
 from sys import argv
 #taking in a script and filename
 script, filename = argv
@@ -17,3 +17,7 @@ file_again = input("> ")
 txt_again = open(file_again)
 #same as line 11
 print(txt_again.read())
+
+#Make sure to close files when finished
+txt.close()
+txt_again.close()
