@@ -32,35 +32,41 @@ def jelly_and_sandwiches(jelly_jars, bread_slices):
     else:
         print(f"Sorry, you have an uneven amount of bread_slices ({bread_slices}), we don't make half sandwiches here.")
 
-jars = 8
-slices = 20
+# jars = 8
+# slices = 20
 
-#1
-jelly_and_sandwiches(2, 10)
+# Call 1
+# jelly_and_sandwiches(2, 10)
 
-#2
-jelly_and_sandwiches(jars, slices)
+# Call 2
+# jelly_and_sandwiches(jars, slices)
 
-#3
-jelly_and_sandwiches(jars + 5, slices + 2)
+# Call 3
+# jelly_and_sandwiches(jars + 5, slices + 2)
 
-#4
-print("How many jars and slices do you want to use? (Jars first then slices):")
-jelly_and_sandwiches(int(input()), int(input()))
+# Call 4
+# print("How many jars and slices do you want to use? (Jars first then slices):")
+# jelly_and_sandwiches(int(input()), int(input()))
 
-#5
+# Call 5
+# jelly_and_sandwiches(8 + 2, 6 + 14)
+
+# Call 6
+# def how_many_jars():
+    # print("How many jars?")
+
+# def how_many_slices():
+    # print("How many slices?")
+
+# jelly_and_sandwiches(int(input(how_many_jars())), int(input(how_many_slices())))
+
+# Call 7
 
 
-#6
+# Call 8
 
 
-#7
+# Call 9
 
 
-#8
-
-
-#9
-
-
-#10
+# Call 10
