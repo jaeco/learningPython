@@ -61,10 +61,21 @@ def jelly_and_sandwiches(jelly_jars, bread_slices):
 # jelly_and_sandwiches(int(input(how_many_jars())), int(input(how_many_slices())))
 
 # Call 7
+# def how_many_jars(jars):
+#     return jars
+# def how_many_slices(slices):
+#     return slices
 
+# jelly_and_sandwiches(how_many_jars(2), how_many_slices(6))
 
 # Call 8
-
+from sys import argv
+def jars_and_slices(jars, slices):
+    jelly = int(jars)
+    bread = int(slices)
+    print(f"You have {jelly} jelly and {bread} bread")
+    jelly_and_sandwiches(jelly, bread)
+jars_and_slices(jars, slices)
 
 # Call 9
 
