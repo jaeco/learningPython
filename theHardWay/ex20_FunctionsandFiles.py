@@ -1,17 +1,18 @@
+#Importing the argv module from sys
 from sys import argv
 
-script, input_file = argv
+script, input_file = argv #Capturing passed in arguments after the script runs
 
-def print_all(f):
+def print_all(f): #Function to print everything from the object is passed in
     print(f.read())
 
-def rewind(f):
+def rewind(f): #Move to the first position of the object passed in
     f.seek(0)
 
-def print_a_line(line_count, f):
+def print_a_line(line_count, f): #Print out the line count passed in, read the first (or next) line of the object passed in
     print(line_count, f.readline())
 
-current_file = open(input_file)
+current_file = open(input_file) #open the file passed into the script
 
 print("First let's print the whole file:\n")
 
